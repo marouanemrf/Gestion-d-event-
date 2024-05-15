@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>869</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>841</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 9px;</string>
+   </property>
+   <widget class="QPushButton" name="reduit">
+    <property name="geometry">
+     <rect>
+      <x>806</x>
+      <y>10</y>
+      <width>12</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(0, 170, 0);
+    border-radius: 6px;
+   border: none;
+}
+QPushButton:pressed{
+	background-color: rgb(0, 255, 0);
+ }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="close">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>10</y>
+      <width>12</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(170, 0, 0);
+    border-radius: 6px;
+   border: none;
+}
+QPushButton:pressed{
+	background-color: rgb(255, 0, 0);
+ }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="captur">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>591</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(223, 223, 223);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="absance">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>370</y>
+      <width>211</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableWidget{
+background-color: rgb(251, 255, 170);
+}QTableWidget::item{
+	background-color: rgb(255, 229, 125);
+}</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>CIN</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nom</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="presence">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>370</y>
+      <width>511</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableWidget{
+background-color: rgb(251, 255, 170);
+}QTableWidget::item{
+	background-color: rgb(255, 229, 125);
+}</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>CIN</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>NOM</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Heure d arrive</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Heure de départ</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Temps de depart </string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>340</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Liset de présence</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>340</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Liset d'absance</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
